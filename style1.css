@@ -1,0 +1,99 @@
+
+/* TypoGraphy */
+
+h1{
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+}
+
+h2{
+  font-size:25px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+span{
+  font-weight: 100;
+}
+
+.sidebar h2 {
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 40px;
+}
+
+i{
+  color: red;
+}
+
+
+header {
+  margin: 50px auto 20px auto ;
+  display:flex;
+  width:60%;
+  justify-content: space-between;
+  align-items: center;
+  /* border:1px solid red; */
+  
+}
+
+.price-card-container {
+  margin: 20px auto 70px auto ;
+  display:flex;
+  width:60%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  /* border:1px solid red; */
+}
+
+.price-card{
+  margin-bottom: 70px;
+  min-width:200px;
+  width:29%;
+  justify-content: space-between;
+  align-content: space-between;
+  height:50vh;
+  border:1.5px solid red;
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px lightgrey;
+}
+.top{
+  margin-left: 50px;
+}
+
+.top h2{
+  color:red;
+  font-size: 30px;
+}
+
+.rest h2{
+  margin-left: 30px;
+  text-decoration: line-through;
+  color:red;
+}
+
+.checkbox-container{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.checkbox-container label{
+  cursor: pointer;
+  font-weight: 300;
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+.checkbox-container input[type='checkbox']{
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+}
+
+
+
