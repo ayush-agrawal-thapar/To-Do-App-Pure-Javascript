@@ -187,6 +187,8 @@ i{
   border: 1px solid red;
 }
 
+
+
 @media (min-width:793px) and (max-width:1204px){
   .overlay-box h2{
     
@@ -215,18 +217,18 @@ i{
     top:30vh;
     left:25vw;
     width:50vw;
-    height:38vh;
+    height:33vh;
   }
 
   .overlay-box h2{
     width:60%;
-    margin: 35px 0px 0px 20%;
+    margin: 35px 0px 0px 30%;
   }
 
 
 }
 
-@media (max-width:481px){
+@media (max-width:482px){
   .overlay-box{
     top:30vh;
     left:25vw;
@@ -236,7 +238,7 @@ i{
 
   .overlay-box h2{
     width:100%;
-    margin: 35px 0px 0px 15%;
+    margin: 35px 0px 0px 25%;
   }
 
 }

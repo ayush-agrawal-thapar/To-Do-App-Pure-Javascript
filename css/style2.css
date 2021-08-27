@@ -13,7 +13,11 @@ header{
   display:flex;
   justify-content: center;
   align-items: center;
-  width:50vw;
+  width:70vw;
+}
+
+.back-btn-hidden{
+  display:none;
 }
 
 .myTextTitle{
@@ -58,6 +62,8 @@ i{
 }
 
 .price-card{
+  position: relative;
+  min-width: 350px;
   margin: 10px auto 0 auto;
   width:30vw;
   height:55vh;
@@ -67,7 +73,7 @@ i{
 }
 
 .top{
-  margin-left: 120px;
+  margin-left: 25%;
 }
 
 .top h2{
@@ -128,6 +134,63 @@ i{
 
 
 .add-btn{
-  margin-left: 90%;
-  margin-top: 150px;
+  position: absolute;
+  top:90%;
+  left:90%;
+}
+
+@media (min-width:800px) and (max-width:892px){
+  header{
+    width:70vw;
+  }
+}
+
+@media (min-width:598px) and (max-width:800px){
+  .divider{
+    display: none;
+  }
+  .back-btn {
+    display:none;
+  }
+  
+
+  .back-btn-hidden{
+    display: inline;
+  }
+
+  header{
+    align-items: center;
+    margin-bottom: 100px;
+    width: 100vw;
+  }
+
+}
+
+@media (max-width:597px){
+
+  header{
+    align-items: center;
+    margin-bottom: 100px;
+    width: 80vw;
+    margin:0px 0px 100px 10%;
+  }
+
+  .divider{
+    display: none;
+  }
+  .back-btn {
+    display:none;
+  }
+  .back-btn-hidden{
+    display: inline;
+  }
+
+  .myTextTitle{
+    margin-right: 0px;
+  }
+
+  .myTextTitle h1{
+    font-size: 45px;
+  }
+
 }
