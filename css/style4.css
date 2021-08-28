@@ -19,7 +19,7 @@ header{
   display:flex;
   justify-content: center;
   align-items: center;
-  width:50vw;
+  width:70vw;
 }
 
 .myTextTitle{
@@ -64,6 +64,8 @@ i{
 }
 
 .price-card{
+  position: relative;
+  min-width: 350px;
   margin: 10px auto 0 auto;
   width:30vw;
   height:55vh;
@@ -73,7 +75,7 @@ i{
 }
 
 .top{
-  margin-left: 120px;
+  margin-left: 25%;
 }
 
 .top h2{
@@ -131,11 +133,10 @@ i{
   justify-content: center;
   align-items: center;
 }
-
-
 .add-btn{
-  margin-left: 90%;
-  margin-top: 150px;
+  position: absolute;
+  top:90%;
+  left:90%;
 }
 
 .overlay-box{
@@ -188,10 +189,8 @@ i{
 }
 
 
-
 @media (min-width:793px) and (max-width:1204px){
   .overlay-box h2{
-    
     width:60%;
     margin: 35px 10% 0px 30%;
   }
