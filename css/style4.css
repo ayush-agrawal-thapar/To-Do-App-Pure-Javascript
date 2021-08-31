@@ -188,12 +188,34 @@ i{
   border: 1px solid red;
 }
 
+@media (min-width:1205px) {
+
+  .overlay-box{
+    top: 30vh;
+    left:26vw;
+    width:45vw;
+    height: 40vh;
+    
+  }
+  
+}
+
 
 @media (min-width:793px) and (max-width:1204px){
   .overlay-box h2{
     width:60%;
     margin: 35px 10% 0px 30%;
   }
+
+  .overlay-box{
+    top: 30vh;
+    left:26vw;
+    width:45vw;
+    height: 40vh;
+    
+  }
+
+
 
 }
 
@@ -203,8 +225,8 @@ i{
 
   .overlay-box{
     top:30vh;
-    left:33vw;
-    width:40vw;
+    left:25vw;
+    width:50vw;
 
   }
 
@@ -214,9 +236,9 @@ i{
 
   .overlay-box{
     top:30vh;
-    left:25vw;
-    width:60vw;
-    height:33vh;
+    left:20vw;
+    width:50vw;
+    height:40vh;
   }
 
   .overlay-box h2{
@@ -230,8 +252,8 @@ i{
 @media (max-width:482px){
   .overlay-box{
     top:30vh;
-    left:25vw;
-    width:60vw;
+    left:10vw;
+    width: 80vw;
     height:40vh;
   }
 
@@ -241,4 +263,5 @@ i{
   }
 
 }
+
 
