@@ -189,11 +189,11 @@ header {
 
 }
 
-@media (max-width:481px){
+@media (min-width:405px) and (max-width:481px){
   .overlay-box{
     top:30vh;
-    left:25vw;
-    width:60vw;
+    left:20vw;
+    width:80vw;
     height:40vh;
   }
 
@@ -204,5 +204,20 @@ header {
 
 }
 
+@media (max-width:404px){
+
+  .overlay-box{
+    top:30vh;
+    left:20vw;
+    width:100vw;
+    height:40vh;
+  }
+
+  .overlay-box h2{
+    width:100%;
+    margin: 35px 0px 0px 20%;
+  }
+
+}
 
 
